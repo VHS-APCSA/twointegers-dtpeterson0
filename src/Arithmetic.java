@@ -1,4 +1,10 @@
 
-public class Arithmetic {
+import java.util.scanner;
 
+public class Arithmetic 
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+	}
 }
