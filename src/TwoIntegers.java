@@ -34,7 +34,7 @@ public class TwoIntegers
 		return ("Sum = " + (num1 + num2) + "\n (Product = " + (num1 * num2) + 
 		"\n (Diffrence = " + (num1 - num2) + "\n (Quotient = " + (num1 / num2));
 	}
-	public Double comparingIntegers()
+	public double comparingIntegers()
 	{
 		double number = Double.NaN;
 		if(num1 > num2)
@@ -46,5 +46,9 @@ public class TwoIntegers
 			number = num2;
 		}
 		return number;
+	}
+	public boolean oddOrEven()
+	{
+		
 	}
 }
