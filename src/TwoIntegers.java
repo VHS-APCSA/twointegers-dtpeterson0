@@ -49,6 +49,7 @@ public class TwoIntegers
 	}
 	public boolean oddOrEven()
 	{
-		
+		return ((num1 % 2) == 0);
 	}
+	
 }
