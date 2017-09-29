@@ -31,8 +31,8 @@ public class TwoIntegers
 	}
 	public String arithmetic()
 	{
-		return ("Sum = " + (num1 + num2) + "\n (Product = " + (num1 * num2) + 
-		"\n (Diffrence = " + (num1 - num2) + "\n (Quotient = " + (num1 / num2));
+		return ("Sum = " + (num1 + num2) + "\nProduct = " + (num1 * num2) + 
+		"\nDiffrence = " + (num1 - num2) + "\nQuotient = " + (num1 / num2));
 	}
 	public double comparingIntegers()
 	{
@@ -51,5 +51,8 @@ public class TwoIntegers
 	{
 		return ((num1 % 2) == 0);
 	}
-	
+	public boolean multiples()
+	{
+		return ((num1 % num2) == 0);
+	}
 }
